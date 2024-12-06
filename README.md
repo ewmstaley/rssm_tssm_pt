@@ -12,13 +12,13 @@ To test this codebase I primarily used HalfCheetah with pixel states, and I expl
 
 This is method four below ("Int/Ext"), which I compared with a fully external autoencoder ("Ext", world model only operates on latents), and a fully internal autoencoder ("Int", world model decodes to fully pixels with no other reconstruction loss.) Here we see an RSSM observing 10 states, and then rolled out for 90 steps without further observations. The pixels below are predicted solely from the ingested actions and the predicted environment dynamics within the RSSM.
 
-![visualization_rssm](.\src\visualization_rssm.png)
+![visualization_rssm](./src/visualization_rssm.png)
 
 
 
 We can do the same for TSSM, which I found to be slightly worse in terms of reconstructions but it may need more training time (or parameters):
 
-![visualization_tssm](.\src\visualization_tssm.png)
+![visualization_tssm](./src/visualization_tssm.png)
 
 
 
