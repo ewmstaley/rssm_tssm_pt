@@ -2,7 +2,7 @@
 
 This repo includes implementations of two related world modeling techniques: Recurrent State Space Models (RSSM) and Transformer State Space Models (TSSM). These were implemented for imitation learning experiments and thus do not not include reward prediction in their output.
 
-These can be used to model the dynamics of an environment with a neural network, which can then be used in place of a real environment for simulating, search, or even training (since it is differentiable). See my notes on these methods here.
+These can be used to model the dynamics of an environment with a neural network, which can then be used in place of a real environment for simulating, search, or even training (since it is differentiable). See my notes on these methods [here](https://www.tedstaley.com/posts/rssm_tssm/wm1.html).
 
 
 
